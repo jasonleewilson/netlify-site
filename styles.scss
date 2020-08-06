@@ -1,32 +1,51 @@
-$red:#ed1f24;
+// $red:#ed1f24;
+$red: firebrick;
+$white: #ffffff;
+$grey: #aeaeae;
 
 html {
     font-family: sans-serif;
     line-height: 1.15;
+    color: $grey;
 }
 
 body {
-    background: #fff;
-  }
-  .container {
-    width: 400px;
-    margin: 30px auto;
-    text-align: center;
+    background: $white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: $red;
+}
+
+.container {
     font-weight: bold;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
     h1 {
-      color: $red;
-      display: inline;
-      font-size: 4rem;
-    }
-  
-    span {
-      color: black;
-      font-size: 4rem;
+        color: $red;
+        display: inline;
+        font-size: 4rem;
     }
 
-    a {text-decoration: none;}
-    a:visited {color: $red;}
-  }
-  
-  
+    span {
+        color: $grey;
+        font-size: 4rem;
+    }
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+
+    a {
+        padding: 1em;
+    }
+}

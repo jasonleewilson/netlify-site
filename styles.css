@@ -1,35 +1,53 @@
 html {
   font-family: sans-serif;
   line-height: 1.15;
+  color: #aeaeae;
 }
 
 body {
-  background: #fff;
+  background: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: firebrick;
 }
 
 .container {
-  width: 400px;
-  margin: 30px auto;
-  text-align: center;
   font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90vh;
 }
 
 .container h1 {
-  color: #ed1f24;
+  color: firebrick;
   display: inline;
   font-size: 4rem;
 }
 
 .container span {
-  color: black;
+  color: #aeaeae;
   font-size: 4rem;
 }
 
-.container a {
-  text-decoration: none;
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
 }
 
-.container a:visited {
-  color: #ed1f24;
+footer a {
+  padding: 1em;
 }
 /*# sourceMappingURL=styles.css.map */
