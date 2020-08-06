@@ -1,3 +1,5 @@
+$red:#ed1f24;
+
 html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -13,7 +15,7 @@ body {
     font-weight: bold;
   
     h1 {
-      color: #ed1f24;
+      color: $red;
       display: inline;
       font-size: 4rem;
     }
@@ -22,6 +24,9 @@ body {
       color: black;
       font-size: 4rem;
     }
+
+    a {text-decoration: none;}
+    a:visited {color: $red;}
   }
   
   

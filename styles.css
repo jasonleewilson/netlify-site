@@ -24,4 +24,12 @@ body {
   color: black;
   font-size: 4rem;
 }
+
+.container a {
+  text-decoration: none;
+}
+
+.container a:visited {
+  color: #ed1f24;
+}
 /*# sourceMappingURL=styles.css.map */
